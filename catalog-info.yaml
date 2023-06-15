@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-aws-rbac-user
+  description: Terraform module for AWS IAM users used for RBAC
+  annotations:
+    github.com/project-slug: sendbird/terraform-aws-rbac-user
+spec:
+  type: library
+  lifecycle: production
+  owner: team-cloud-infrastructure
+  system: sendbird-internal-tools
